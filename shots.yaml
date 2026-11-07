@@ -2,21 +2,23 @@
 # (translated per language in phase 2; the shot id never changes).
 # Each shot is captured once per target it lists; the number NN in the output file name is the
 # shot's position among the shots of that target, in this order.
-# action: none | book_chooser | label_dialog | verse_menu | search | workspaces
-# (action_arg: verse OSIS ref for verse_menu/label_dialog, query for search)
+# action: none | verse_menu | note | label_dialog | book_chooser | search | workspaces
+# (action_arg: a bookmark id of demo-content/<lang>/content.yaml for verse_menu/note/label_dialog, the query for search)
 shots:
-  - id: bookmarks-labels        # Jeremiah 9 with colored, labelled bookmarks and notes
+  - id: bookmarks-labels        # Jeremiah 9 with colored, labelled bookmarks and notes (the verse's bookmark popup)
     workspace: "Character of God"
+    action: verse_menu
+    action_arg: jer-9-24-love
     targets: [play-phone, web-phone, play-seven, play-ten, ios-iphone-69, ios-iphone-65, ios-ipad-13]
   - id: formatted-note          # a note with list and emphasis, open on a verse
     workspace: "Character of God"
-    action: verse_menu
-    action_arg: Jer.9.24
+    action: note
+    action_arg: jer-9-23
     targets: [play-phone, web-phone, ios-iphone-69, ios-iphone-65]
   - id: label-assign
     workspace: "Character of God"
     action: label_dialog
-    action_arg: Jer.9.24
+    action_arg: jer-9-23
     targets: [play-phone, web-phone, ios-iphone-69, ios-iphone-65]
   - id: crossrefs               # Psalm 33 with cross references
     workspace: "Psalm 33 sermon"

@@ -166,7 +166,7 @@ workspaces:
       - {document: BSB, category: BIBLE, key: "John.2.23"}
       - {document: StrongsRealGreek, category: DICTIONARY, key: "03957", weight: 0.8}
     textDisplaySettings:
-      strongsMode: 1
+      strongsMode: 2
   - name: "Parable of the Sower"
     windows:
       - {document: NASB, category: BIBLE, key: "Matt.13.3"}
