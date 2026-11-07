@@ -80,7 +80,7 @@ def main():
         # name: (image, hints). max_width: frame width as fraction of the image width;
         # max_overflow: how much of the frame height may run off the bottom edge.
         "phone": (device("phone", (900, 1950), 34, 120, 88, black, black_edge), 0.86, 0.08),
-        "tablet": (device("tablet", (1600, 1000), 48, 64, 24, black, black_edge), 0.92, 0.0),
+        "tablet": (device("tablet", (1600, 1000), 48, 64, 24, black, black_edge), 0.94, 0.16),
         "iphone": (device("iphone", (880, 1912), 20, 120, 100, titan, titan_edge), 0.86, 0.08),
         "ipad": (device("ipad", (1032, 1376), 26, 62, 40, titan, titan_edge), 0.86, 0.06),
         "desktop": (desktop(), 0.92, 0.0),

@@ -47,8 +47,8 @@ phone:
   - 968
   - 2018
 tablet:
-  max_overflow: 0.0
-  max_width: 0.92
+  max_overflow: 0.16
+  max_width: 0.94
   radius: 24
   screen:
   - 48
