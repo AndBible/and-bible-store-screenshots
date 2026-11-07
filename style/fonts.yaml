@@ -1,0 +1,41 @@
+# Fonts for captions: Noto (SIL OFL 1.1). Font binaries are NOT committed; fetch-fonts.sh copies
+# them from the system font directories into the gitignored fonts/ (Debian/Ubuntu packages
+# fonts-noto-core and fonts-noto-cjk). `dir` is the folder under /usr/share/fonts/.
+# `index` is the face number inside a .ttc collection.
+fonts:
+  latin:      {file: NotoSans-Bold.ttf,            dir: truetype/noto, package: fonts-noto-core}
+  arabic:     {file: NotoSansArabic-Bold.ttf,      dir: truetype/noto, package: fonts-noto-core}
+  naskh:      {file: NotoNaskhArabic-Bold.ttf,     dir: truetype/noto, package: fonts-noto-core}
+  hebrew:     {file: NotoSansHebrew-Bold.ttf,      dir: truetype/noto, package: fonts-noto-core}
+  thai:       {file: NotoSansThai-Bold.ttf,        dir: truetype/noto, package: fonts-noto-core}
+  devanagari: {file: NotoSansDevanagari-Bold.ttf,  dir: truetype/noto, package: fonts-noto-core}
+  bengali:    {file: NotoSansBengali-Bold.ttf,     dir: truetype/noto, package: fonts-noto-core}
+  tamil:      {file: NotoSansTamil-Bold.ttf,       dir: truetype/noto, package: fonts-noto-core}
+  telugu:     {file: NotoSansTelugu-Bold.ttf,      dir: truetype/noto, package: fonts-noto-core}
+  cjk-jp:     {file: NotoSansCJK-Bold.ttc, index: 0, dir: opentype/noto, package: fonts-noto-cjk}
+  cjk-kr:     {file: NotoSansCJK-Bold.ttc, index: 1, dir: opentype/noto, package: fonts-noto-cjk}
+  cjk-sc:     {file: NotoSansCJK-Bold.ttc, index: 2, dir: opentype/noto, package: fonts-noto-cjk}
+  cjk-tc:     {file: NotoSansCJK-Bold.ttc, index: 3, dir: opentype/noto, package: fonts-noto-cjk}
+
+# Language (BCP-47 primary subtag, or the app code for zh) -> font key. Anything else: latin
+# (Latin, Cyrillic, Greek and Vietnamese are all covered by Noto Sans).
+# `rtl` lists the right-to-left languages (Pillow/raqm gets direction="rtl" for them).
+languages:
+  default: latin
+  ar: arabic
+  ur: naskh
+  iw: hebrew
+  he: hebrew
+  th: thai
+  hi: devanagari
+  ne: devanagari
+  bn: bengali
+  ta: tamil
+  te: telugu
+  ja: cjk-jp
+  ko: cjk-kr
+  zh-rCN: cjk-sc
+  zh-CN: cjk-sc
+  zh-rTW: cjk-tc
+  zh-TW: cjk-tc
+rtl: [ar, ur, iw, he]

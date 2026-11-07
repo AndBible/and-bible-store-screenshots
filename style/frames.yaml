@@ -1,0 +1,60 @@
+desktop:
+  max_overflow: 0.0
+  max_width: 0.92
+  radius: 0
+  screen:
+  - 8
+  - 56
+  - 1600
+  - 1000
+  size:
+  - 1616
+  - 1064
+ipad:
+  max_overflow: 0.06
+  max_width: 0.86
+  radius: 40
+  screen:
+  - 26
+  - 26
+  - 1032
+  - 1376
+  size:
+  - 1084
+  - 1428
+iphone:
+  max_overflow: 0.08
+  max_width: 0.86
+  radius: 100
+  screen:
+  - 20
+  - 20
+  - 880
+  - 1912
+  size:
+  - 920
+  - 1952
+phone:
+  max_overflow: 0.08
+  max_width: 0.86
+  radius: 88
+  screen:
+  - 34
+  - 34
+  - 900
+  - 1950
+  size:
+  - 968
+  - 2018
+tablet:
+  max_overflow: 0.0
+  max_width: 0.92
+  radius: 24
+  screen:
+  - 48
+  - 48
+  - 1600
+  - 1000
+  size:
+  - 1696
+  - 1096
