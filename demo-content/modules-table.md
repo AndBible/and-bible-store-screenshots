@@ -6,10 +6,10 @@ Catalog source: `catalog.json` built 2026-11-07 from the mods.d.tar.gz of the re
 
 | App code | Play folder | App Store | Tier | Proposed module | Alternatives | Note |
 |---|---|---|---|---|---|---|
-| `en` | en-US | en-US | 0 | NASB (Lockman  CrossWire): New American Standard Bible - NASB 2020 | KJV (CrossWire): King James Version (1769) with Strongs Numbers and Morphology  and CatchWords | source language |
+| `en` | en-US | en-US | 0 | NASB (Lockman (CrossWire)): New American Standard Bible - NASB 2020 | KJV (CrossWire): King James Version (1769) with Strongs Numbers and Morphology  and CatchWords | source language |
 | `ar` | ar | — | 1 | AraSVD (CrossWire): Smith and van Dyck's al-Kitab al-Muqaddas (Arabic Bible) | arbVDeb (eBible): الكتاب المقدس باللغة العربية، فان دايك; arbnav2012eb (eBible): Ketab El Hayat Majani/كتاب الحياة مجانى | — |
 | `bg` | bg | — | 1 | BulVeren (CrossWire): Veren’s Contemporary Bible | — | — |
-| `ca` | ca | — | 1 | fallback: en, NASB (Lockman  CrossWire): New American Standard Bible - NASB 2020 | KJV (CrossWire): King James Version (1769) with Strongs Numbers and Morphology  and CatchWords | fallback: en; needs maintainer review: no installable Bible in this language |
+| `ca` | ca | — | 1 | fallback: en, NASB (Lockman (CrossWire)): New American Standard Bible - NASB 2020 | KJV (CrossWire): King James Version (1769) with Strongs Numbers and Morphology  and CatchWords | fallback: en; needs maintainer review: no installable Bible in this language |
 | `cs` | cs-CZ | — | 1 | CzeCSP (CrossWire): Czech Český studijní překlad | CzeBKR (CrossWire): Czech Bible Kralicka; CzeB21 (CrossWire): Czech Bible, Překlad 21. století včetně deuterokanonických knih | — |
 | `da` | da-DK | — | 1 | DaOT1871NT1907 (CrossWire): Danish OT1871 + NT1907 with original orthography | DaOT1931NT1907 (CrossWire): Danish OT1931 + NT1907 with original orthography; DanDetteBiblen (AndBible Extra): Dette er Biblen | — |
 | `de` | de-DE | de-DE | 1 | GerSch (CrossWire): Schlachter Bibel (1951) | GerOffBiSt (CrossWire): Offene Bibel - Studienfassung; GerMenge (CrossWire): Menge-Bibel (1939) | — |
@@ -38,11 +38,11 @@ Catalog source: `catalog.json` built 2026-11-07 from the mods.d.tar.gz of the re
 | `zh-rCN` | zh-CN | zh-Hans | 1 | ChiUns (CrossWire): 和合本 (简体字) | ChiNCVs (CrossWire): 新译本; cmnCUs889eb (eBible): 新标点和合本 | — |
 | `zh-rTW` | zh-TW | — | 1 | ChiUn (CrossWire): 和合本 (繁體字) | ChiSB (CrossWire): 思高本 (Sīgāo Běn), 聖經：思高聖經學會譯釋; ChiNCVt (CrossWire): 新譯本 | — |
 | `af` | af | — | 2 | Afr1953 (CrossWire): 1933/1953 Afrikaans Bybel | — | — |
-| `b+sr+Latn` | — | — | 2 | srp1865eb (eBible): Sveto Pismo ili Biblija | srponstl2017eb (eBible): Biblica® Novi srpski prevod, slobodna prava; Srp_NSPl (STEP Bible  Tyndale): New Serbian Translation ( Latin script) / Novi srpski prevod, Biblica 2023 \| Montenegro, North Macedonia, Serbia | — |
-| `b+sr+RS` | sr | — | 2 | srp1868eb (eBible): Свето писмо или Библија Превод Даничић-Караџић | srponspc2017eb (eBible): Biblica® Нови српски превод, слободна права; Srp_NSPc (STEP Bible  Tyndale): New Serbian Translation (Cyrillic script) / Нови српски превод, Biblica 2023 \| Montenegro, North Macedonia, Serbia. | — |
+| `b+sr+Latn` | — | — | 2 | srp1865eb (eBible): Sveto Pismo ili Biblija | srponstl2017eb (eBible): Biblica® Novi srpski prevod, slobodna prava; Srp_NSPl (STEP Bible (Tyndale)): New Serbian Translation ( Latin script) / Novi srpski prevod, Biblica 2023 \| Montenegro, North Macedonia, Serbia | — |
+| `b+sr+RS` | sr | — | 2 | srp1868eb (eBible): Свето писмо или Библија Превод Даничић-Караџић | srponspc2017eb (eBible): Biblica® Нови српски превод, слободна права; Srp_NSPc (STEP Bible (Tyndale)): New Serbian Translation (Cyrillic script) / Нови српски превод, Biblica 2023 \| Montenegro, North Macedonia, Serbia. | — |
 | `bn` | bn-BD | — | 2 | benirv2019eb (eBible): ইন্ডিয়ান রিভাইজড ভার্সন (IRV) - বেঙ্গলী | benobcv2019eb (eBible): Biblica® মুক্তভাবে বাংলা সমকালীন সংস্করণের; ben2006eb (eBible): পবিত্র বাইবেল | — |
 | `eo` | eo | — | 2 | Esperanto (CrossWire): Esperanto Londona Biblio | epo1910eb (eBible): Londona Biblio | — |
-| `et` | et | — | 2 | Est (CrossWire): Estonian Bible | ekkpkp2023eb (eBible): Piibel Kõigile; Ekk_PKEK (STEP Bible  Tyndale): Contemporary Estonian Bible (ECV) / Pühakiri kaasaegses eesti keeles \| Biblica \| 2022 \| In Standard Estonian \| Estonia. | — |
+| `et` | et | — | 2 | Est (CrossWire): Estonian Bible | ekkpkp2023eb (eBible): Piibel Kõigile; Ekk_PKEK (STEP Bible (Tyndale)): Contemporary Estonian Bible (ECV) / Pühakiri kaasaegses eesti keeles \| Biblica \| 2022 \| In Standard Estonian \| Estonia. | — |
 | `fil` | fil | — | 2 | TagAngBiblia (CrossWire): Philippine Bible Society (1905) | tglulb2018eb (eBible): banal na Bibliya | — |
 | `in` | id | — | 2 | ind2015eb (eBible): Alkitab Terjemahan Sederhana Indonesia, Edisi Ketiga | indags2021eb (eBible): Alkitab Gratis untuk Semua; indayt2024eb (eBible): Alkitab Yang Terbuka | — |
 | `lt` | lt | — | 2 | LtKBB (CrossWire): Lithuanian Bible | litb1995eb (eBible): Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“; littpv2022eb (eBible): Tikinčiųjų paveldo vertimas | — |
