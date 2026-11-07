@@ -1,1 +1,14 @@
-captions: {}
+# Marketing captions, English source (at most 40 characters each). Keys are the shots' caption_key.
+captions:
+  bookmarks-labels: Highlight with your own labels
+  formatted-note: Notes with real formatting
+  label-assign: Organize verses with labels
+  crossrefs: Follow cross references
+  map: Maps and commentary together
+  strongs-parallel: Original language at your fingertips
+  studypad: Study with StudyPads
+  book-chooser: Every Bible book a tap away
+  rtl-parallel: Many scripts, side by side
+  night-split: Dark mode for night reading
+  workspaces: Workspaces for every study
+  search: Search all your Bibles
