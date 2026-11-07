@@ -1,0 +1,15 @@
+# Sword modules per language, installed before the demo backup is restored.
+# repo: the repository name as in app/src/main/res/raw/repositories.txt (the app's own repositories);
+# every module listed here is freely installable from that repository.
+# Phase 2 fills the other languages from demo-content/modules-table.md after the maintainer's review.
+en:
+  - {initials: NASB, repo: "Lockman (CrossWire)"}
+  - {initials: KJV, repo: CrossWire}
+  - {initials: BSB, repo: CrossWire}
+  - {initials: TSK, repo: CrossWire}
+  - {initials: MHC, repo: CrossWire}
+  - {initials: OSHB, repo: CrossWire}
+  - {initials: AraSVD, repo: CrossWire}
+  - {initials: StrongsRealGreek, repo: AndBible}
+  - {initials: StrongsRealHebrew, repo: AndBible}
+  - {initials: KretzmannMaps, repo: "AndBible Extra"}

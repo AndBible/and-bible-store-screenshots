@@ -1,0 +1,185 @@
+# English demo content for the AndBible 6.0 store screenshots.
+# Every workspace is one screenshot scene (see ../../shots.yaml, field `workspace`).
+# Modules: see ../modules.yaml (en). All are freely installable from the app's own repositories.
+labels:
+  - id: character
+    name: "Character of God"
+    color: "#FB8C00"
+    favourite: true
+  - id: love
+    name: "Love"
+    color: "#E91E63"
+    favourite: true
+  - id: justice
+    name: "Justice"
+    color: "#3F51B5"
+  - id: righteousness
+    name: "Righteousness"
+    color: "#43A047"
+  - id: knowing
+    name: "Knowing God"
+    color: "#8E24AA"
+  - id: promises
+    name: "Promises"
+    color: "#00ACC1"
+  - id: prayer
+    name: "Prayer"
+    color: "#FDD835"
+  - id: sermon
+    name: "Sermon: Psalm 33"
+    color: "#6D4C41"
+  - id: sower
+    name: "Parable of the Sower"
+    color: "#7CB342"
+    favourite: true
+bookmarks:
+  - id: jer-9-23
+    module: NASB
+    ref: "Jer.9.23-Jer.9.24"
+    labels: [character, knowing]
+    primaryLabel: character
+    note: >-
+      <p>This passage describes the character of God in <i>three essential attributes</i>:</p>
+      <ol><li><b>Lovingkindness</b></li><li><b>Justice</b></li><li><b>Righteousness</b></li></ol>
+      <p>If each of these is of <i>equal value</i>, then God's justice is as important as His love.
+      Boasting in wisdom, might or riches is replaced by <b>knowing Him</b>.</p>
+  - id: jer-9-24-love
+    module: NASB
+    ref: "Jer.9.24"
+    labels: [love]
+    note: "<p>Hebrew <i>chesed</i>: covenant loyalty, steadfast love that does not let go.</p>"
+  - id: jer-9-24-justice
+    module: NASB
+    ref: "Jer.9.24"
+    labels: [justice, righteousness]
+    primaryLabel: justice
+    note: "<p>Compare <b>Mic 6:8</b> and <b>Ps 89:14</b>.</p>"
+  - id: jer-9-25
+    module: NASB
+    ref: "Jer.9.25"
+    labels: [promises]
+  - id: ps-33-6
+    module: NASB
+    ref: "Ps.33.6"
+    labels: [sermon]
+    note: "<p>Creation by His <b>word</b>: compare Gen 1:3 and John 1:1-3.</p>"
+  - id: ps-33-18
+    module: NASB
+    ref: "Ps.33.18"
+    labels: [sermon, promises]
+    primaryLabel: sermon
+    note: "<p>The eye of the LORD is on those who <i>hope in His lovingkindness</i>.</p>"
+  - id: ps-33-20
+    module: NASB
+    ref: "Ps.33.20-Ps.33.22"
+    labels: [prayer, sermon]
+    primaryLabel: prayer
+  - id: ps-89-14
+    module: NASB
+    ref: "Ps.89.14"
+    labels: [justice, righteousness, love]
+    primaryLabel: righteousness
+    note: "<p>Righteousness and justice are the <b>foundation</b> of His throne.</p>"
+  - id: mic-6-8
+    module: NASB
+    ref: "Mic.6.8"
+    labels: [justice]
+    note: "<ul><li>do justice</li><li>love kindness</li><li>walk humbly with your God</li></ul>"
+  - id: amos-5-24
+    module: NASB
+    ref: "Amos.5.24"
+    labels: [justice]
+  - id: isa-40-31
+    module: NASB
+    ref: "Isa.40.31"
+    labels: [promises]
+  - id: john-3-16
+    module: NASB
+    ref: "John.3.16"
+    labels: [love]
+    note: "<p>The whole Gospel in one verse.</p>"
+  - id: rom-5-8
+    module: NASB
+    ref: "Rom.5.8"
+    labels: [love]
+  - id: 1john-4-8
+    module: NASB
+    ref: "1John.4.8"
+    labels: [love, character]
+    primaryLabel: love
+    note: "<p><b>God is love</b>: not only that He loves, but that love is His nature.</p>"
+  - id: phil-4-6
+    module: NASB
+    ref: "Phil.4.6-Phil.4.7"
+    labels: [prayer, promises]
+    primaryLabel: prayer
+  - id: matt-13-3
+    module: NASB
+    ref: "Matt.13.3-Matt.13.9"
+    labels: [sower]
+    note: "<p>Four kinds of soil: <i>the road, rocky places, thorns, good soil</i>.</p>"
+  - id: matt-13-18
+    module: NASB
+    ref: "Matt.13.18-Matt.13.23"
+    labels: [sower]
+    note: "<p>Jesus explains the parable: the seed is <b>the word of the kingdom</b>.</p>"
+  - id: luke-8-11
+    module: NASB
+    ref: "Luke.8.11-Luke.8.15"
+    labels: [sower]
+    note: "<p>Luke adds: they bear fruit <i>with perseverance</i>.</p>"
+studypads:
+  - label: sower
+    entries:
+      - text: >-
+          <h3>The Parable of the Sower</h3>
+          <p>A study of Matthew 13, Mark 4 and Luke 8. <b>Question:</b> what kind of soil am I today?</p>
+      - bookmark: matt-13-3
+      - text: >-
+          <p>The same seed falls on every soil. The difference is <i>not the seed</i> but the ground that receives it.</p>
+      - bookmark: matt-13-18
+      - text: >-
+          <p><b>Four responses to the word:</b></p>
+          <ol><li>It is snatched away before it is understood.</li>
+          <li>It is received with joy, but has no root.</li>
+          <li>It is choked by worries and the deceitfulness of wealth.</li>
+          <li>It is heard, understood and <b>bears fruit</b>.</li></ol>
+      - bookmark: luke-8-11
+      - text: "<p>For the small group: share one \"thorn\" that crowds out the word in your week.</p>"
+workspaces:
+  - name: "Character of God"
+    windows:
+      - {document: NASB, category: BIBLE, key: "Jer.9.23"}
+  - name: "Psalm 33 sermon"
+    windows:
+      - {document: NASB, category: BIBLE, key: "Ps.33.6", weight: 1.2}
+      - {document: TSK, category: COMMENTARY, key: "Ps.33.6"}
+    textDisplaySettings:
+      showXrefs: true
+      expandXrefs: true
+  - name: "Bible maps"
+    windows:
+      - {document: KretzmannMaps, category: MAPS, key: "Palestine"}
+  - name: "Greek word study"
+    windows:
+      - {document: KJV, category: BIBLE, key: "John.2.23"}
+      - {document: BSB, category: BIBLE, key: "John.2.23"}
+      - {document: StrongsRealGreek, category: DICTIONARY, key: "03957", weight: 0.8}
+    textDisplaySettings:
+      strongsMode: 1
+  - name: "Parable of the Sower"
+    windows:
+      - {document: NASB, category: BIBLE, key: "Matt.13.3"}
+      - {category: STUDYPAD, label: sower, weight: 1.3}
+  - name: "Hebrew and Arabic"
+    windows:
+      - {document: NASB, category: BIBLE, key: "Ps.23.1"}
+      - {document: OSHB, category: BIBLE, key: "Ps.23.1"}
+      - {document: AraSVD, category: BIBLE, key: "Ps.23.1"}
+  - name: "Gospel of John"
+    windows:
+      - {document: NASB, category: BIBLE, key: "John.1.1"}
+      - {document: MHC, category: COMMENTARY, key: "John.1.1"}
+  - name: "Daily reading"
+    windows:
+      - {document: NASB, category: BIBLE, key: "Ps.89.14"}

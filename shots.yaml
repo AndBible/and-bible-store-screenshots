@@ -1,39 +1,52 @@
-# Shot manifest. `id` is also the workspace name in the demo backup (demo-content/en/content.yaml).
+# Shot manifest. `workspace` names the workspace of demo-content/<lang>/content.yaml the shot starts from
+# (translated per language in phase 2; the shot id never changes).
 # Each shot is captured once per target it lists; the number NN in the output file name is the
 # shot's position among the shots of that target, in this order.
 # action: none | book_chooser | label_dialog | verse_menu | search | workspaces
 # (action_arg: verse OSIS ref for verse_menu/label_dialog, query for search)
 shots:
   - id: bookmarks-labels        # Jeremiah 9 with colored, labelled bookmarks and notes
+    workspace: "Character of God"
     targets: [play-phone, web-phone, play-seven, play-ten, ios-iphone-69, ios-iphone-65, ios-ipad-13]
   - id: formatted-note          # a note with list and emphasis, open on a verse
+    workspace: "Character of God"
     action: verse_menu
     action_arg: Jer.9.24
     targets: [play-phone, web-phone, ios-iphone-69, ios-iphone-65]
   - id: label-assign
+    workspace: "Character of God"
     action: label_dialog
     action_arg: Jer.9.24
     targets: [play-phone, web-phone, ios-iphone-69, ios-iphone-65]
   - id: crossrefs               # Psalm 33 with cross references
+    workspace: "Psalm 33 sermon"
     targets: [play-phone, web-phone, play-ten, ios-iphone-69, ios-iphone-65, ios-ipad-13]
   - id: map                     # a commentary map
+    workspace: "Bible maps"
     targets: [play-phone, web-phone]
   - id: strongs-parallel        # John 2 KJV with Strong's beside another translation, dictionary in a lower split
+    workspace: "Greek word study"
     targets: [play-phone, web-phone, play-seven, play-ten, ios-iphone-69, ios-iphone-65, ios-ipad-13, web-desktop, web-mac]
   - id: studypad                # StudyPad "Parable of the Sower"
+    workspace: "Parable of the Sower"
     targets: [play-phone, web-phone, play-seven, play-ten, ios-iphone-69, ios-iphone-65, ios-ipad-13, web-desktop, web-mac]
   - id: book-chooser
+    workspace: "Daily reading"
     action: book_chooser
     targets: [play-phone, web-phone, ios-iphone-69, ios-iphone-65, ios-ipad-13]
   - id: rtl-parallel            # Hebrew/Arabic beside English
+    workspace: "Hebrew and Arabic"
     targets: [play-seven, play-ten, ios-iphone-69, ios-iphone-65, ios-ipad-13]
   - id: night-split             # split windows in dark mode
+    workspace: "Gospel of John"
     night: true
     targets: [play-seven, play-ten, ios-iphone-69, ios-iphone-65, ios-ipad-13]
   - id: workspaces              # workspace switcher (6.0)
+    workspace: "Daily reading"
     action: workspaces
     targets: []
   - id: search                  # search results (6.0)
+    workspace: "Daily reading"
     action: search
     action_arg: love
     targets: [ios-iphone-69, ios-iphone-65, ios-ipad-13]
