@@ -22,6 +22,18 @@ ipad:
   size:
   - 1084
   - 1428
+ipad_land:
+  max_overflow: 0.16
+  max_width: 0.94
+  radius: 40
+  screen:
+  - 26
+  - 26
+  - 1376
+  - 1032
+  size:
+  - 1428
+  - 1084
 iphone:
   max_overflow: 0.08
   max_width: 0.86

@@ -83,6 +83,7 @@ def main():
         "tablet": (device("tablet", (1600, 1000), 48, 64, 24, black, black_edge), 0.94, 0.16),
         "iphone": (device("iphone", (880, 1912), 20, 120, 100, titan, titan_edge), 0.86, 0.08),
         "ipad": (device("ipad", (1032, 1376), 26, 62, 40, titan, titan_edge), 0.86, 0.06),
+        "ipad_land": (device("ipad_land", (1376, 1032), 26, 62, 40, titan, titan_edge), 0.94, 0.16),
         "desktop": (desktop(), 0.92, 0.0),
     }
     for name, ((img, meta), max_width, overflow) in specs.items():
