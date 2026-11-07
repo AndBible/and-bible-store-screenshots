@@ -28,10 +28,10 @@ shots:
     targets: [play-phone, web-phone]
   - id: strongs-parallel        # John 2 KJV with Strong's beside another translation, dictionary in a lower split
     workspace: "Greek word study"
-    targets: [play-phone, web-phone, play-seven, play-ten, ios-iphone-69, ios-iphone-65, ios-ipad-13, web-desktop, web-mac]
+    targets: [play-phone, web-phone, play-seven, play-ten, ios-iphone-69, ios-iphone-65, ios-ipad-13, web-desktop]
   - id: studypad                # StudyPad "Parable of the Sower"
     workspace: "Parable of the Sower"
-    targets: [play-phone, web-phone, play-seven, play-ten, ios-iphone-69, ios-iphone-65, ios-ipad-13, web-desktop, web-mac]
+    targets: [play-phone, web-phone, play-seven, play-ten, ios-iphone-69, ios-iphone-65, ios-ipad-13, web-desktop]
   - id: book-chooser
     workspace: "Daily reading"
     action: book_chooser
